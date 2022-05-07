@@ -1,5 +1,3 @@
-# Police_Brutality
-
 This readme file will help you replicate the results in the paper titled: "Understanding the role of media and crimes on public opinion towards the police"
 
 There are three main directories:
