@@ -19,7 +19,9 @@ There are three main directories:
 
 
 3-Robutness_tests:
+
 -The subdirectory "Tetrads" contains a code for parallelized computing that was used to do the first robustness test (the scripts "frac.py", "med.py", and "numb.py" generate p-values of all the links in 100 tetrads each containing one randomly generated time series; the seed for the random-number generator is also provided in the code for replication of the results; and the.batch files are included as a sample); and
+
 -The subdirectory "Pentads" contains a code for parallelized computing that was used to do the second robustness test (the scripts "frac.py", "med.py", and "numb.py" generate p-values of all the links in 100 pentads each containing 1 randomly generated time series; the seed for the random-number generator is also provided in the code for replication of the results; and  the .batch files are included as a sample).
 
 Python dependencies:
