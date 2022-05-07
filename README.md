@@ -3,8 +3,11 @@
 This readme file will help you replicate the results in the paper titled: "Understanding the role of media and crimes on public opinion towards the police"
 
 There are three main directories:
+
 1-Data
+
 2-Conditional_transfer_Entropy
+
 3-Robutness_tests
 
 1- Data:
