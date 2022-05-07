@@ -8,6 +8,8 @@ There are three main directories:
 
 3-Robutness_tests
 
+ ---
+
 1- Data:
 - "Raw_time_series.csv" contains the rawtime series before detrending and seasonal adjustment; and 
 - "Seasonally_Adjusted_and_detrended_Patched.csv" contains data after removing the trend and the seasonal effects
