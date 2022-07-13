@@ -24,8 +24,8 @@ There are two main directories and 4 notebooks:
 - "Positive_tweets_Embedding_optimization.csv" contain the predictive power of the PT time series for different embeddimg dimensions.
 
 2- modules
-- "EDM.py" is a module that includes the convergent cross mapping functions
-- "transfer_entropy.py" is a module that includes several functions, such as the calculation of conditional transfer entropy, the process of symbolization, and the estimation of the transition matrices;
+- "EDM.py" is a module that includes the convergent cross mapping functions; and
+- "transfer_entropy.py" is a module that includes several functions, such as the computation of conditional transfer entropy, the process of symbolization, and the estimation of the transition matrices;
 
 
 
