@@ -30,13 +30,13 @@ There are two main directories and 4 notebooks:
 
 
 3-Convergent cross mapping.ipynb
--is the script that produces the convergence cross mapping plots in the supplement and displays them within the notebook.
+is the script that produces the convergence cross mapping plots in the supplement and displays them within the notebook.
 
 4-High-resolution analysis in the wake of George Floyd’s murder
--is the script that produces the statistics of the analysis in the wake of George Floyd’s murder and displays the results within the notebook.
+is the script that produces the statistics of the analysis in the wake of George Floyd’s murder and displays the results within the notebook.
 
 5-Transfer Entropy
--is the script that compute the trasnfer entropy values and statistics and displays them within the notebook.
+is the script that compute the trasnfer entropy values and statistics and displays them within the notebook.
 
 6-Transition Probabilities
--is the script that computes the transition probabilities in the supplement and displays them within the notebook.
+is the script that computes the transition probabilities in the supplement and displays them within the notebook.
