@@ -1,32 +1,42 @@
-This readme file will help you replicate the results in the paper titled: "Understanding the role of media and crimes on public opinion towards the police"
+This readme file will help you replicate the results in the paper titled: "Understanding the role of media and crimes in the formation of 
+public opinion towards the police"
 
-There are three main directories:
+There are two main directories and 4 notebooks:
 
 1-Data
 
-2-Conditional_transfer_Entropy
+2-modules
 
-3-Robutness_tests
+3-Convergent cross mapping
+
+4-High-resolution analysis in the wake of George Floyd’s murder
+
+5-Transfer Entropy
+
+6-Transition Probabilities
 
  ---
 
 1- Data:
-- "Raw_time_series.csv" contains the rawtime series before detrending and seasonal adjustment; and 
-- "Seasonally_Adjusted_and_detrended_Patched.csv" contains data after removing the trend and the seasonal effects
+- "Times_series_sa_det.csv" contains the daily rawtime series and detrended and seasonal adjusted time series; and 
+- "Floyd_period_Minutes_PBandNeg.csv" contains time series of MPB and NT at a resolution of one minute; and
+- "Negative_tweets_Embedding_optimization.csv" contain the predictive power of the NT time series for different embeddimg dimensions; and
+- "Positive_tweets_Embedding_optimization.csv" contain the predictive power of the PT time series for different embeddimg dimensions.
 
-
-2-Conditional_transfer_Entropy:
+2- modules
+- "EDM.py" is a module that includes the convergent cross mapping functions
 - "transfer_entropy.py" is a module that includes several functions, such as the calculation of conditional transfer entropy, the process of symbolization, and the estimation of the transition matrices;
-- "Pvalues_quantiles_TEvalues.py" is the script that generates p-values, transfer entropy values, and quantiles corresponding to the 9 tetrads studied in the paper and the supplement as 27 csv files; and
-- "TransitionMatrices.ipynb" is the script that computes the transition matrices in the supplement and displays them within the notebook.
 
 
-3-Robutness_tests:
 
--The subdirectory "Tetrads" contains a code for parallelized computing that was used to do the first robustness test (the scripts "frac.py", "med.py", and "numb.py" generate p-values of all the links in 100 tetrads each containing one randomly generated time series; the seed for the random-number generator is also provided in the code for replication of the results; and the.batch files are included as a sample); and
+3-Convergent cross mapping.ipynb
+-is the script that produces the convergence cross mapping plots in the supplement and displays them within the notebook.
 
--The subdirectory "Pentads" contains a code for parallelized computing that was used to do the second robustness test (the scripts "frac.py", "med.py", and "numb.py" generate p-values of all the links in 100 pentads each containing 1 randomly generated time series; the seed for the random-number generator is also provided in the code for replication of the results; and  the .batch files are included as a sample).
+4-High-resolution analysis in the wake of George Floyd’s murder
+-is the script that produces the statistics of the analysis in the wake of George Floyd’s murder and displays the results within the notebook.
 
-Python dependencies:
-Pandas V 1.1.3
-Numpy V 1.21.5
+5-Transfer Entropy
+-is the script that compute the trasnfer entropy values and statistics and displays them within the notebook.
+
+6-Transition Probabilities
+-is the script that computes the transition probabilities in the supplement and displays them within the notebook.
