@@ -12,8 +12,9 @@ There are two main directories and 4 notebooks:
 
 5-Transfer Entropy
 
-6-Transition Probabilities
+6-Partial Correlation
 
+7-Memory of target variables
  ---
 
 1- Data:
@@ -36,5 +37,8 @@ is the script that produces the statistics of the analysis in the wake of George
 5-Transfer Entropy
 is the script that computes the transfer entropy values and test statistics and displays them within the notebook.
 
-6-Transition Probabilities
-is the script that computes the transition probabilities in the supplement and displays them within the notebook.
+6-Partial Correlation
+is the script that computes the partial correlation in the supplement and displays them within the notebook.
+
+7-Memory of target variables
+is the script that computes the entropy of the target variables conditioned on their history and displays them within the notebook.
