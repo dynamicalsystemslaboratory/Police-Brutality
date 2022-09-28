@@ -28,7 +28,7 @@ There are two main directories and 4 notebooks:
 - "transfer_entropy.py" is a module that includes several functions, such as the computation of conditional transfer entropy, the process of symbolization, and the estimation of the transition probabilities;
 
 
-3-Convergent cross mapping.ipynb
+3-Convergent cross mapping
 is the script that produces the convergence cross mapping plots in the supplement and displays them within the notebook.
 
 4-High-resolution analysis in the wake of George Floyd’s murder.ipynb
