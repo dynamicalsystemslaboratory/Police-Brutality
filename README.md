@@ -1,6 +1,6 @@
 This readme file will help you replicate the results in the paper titled: "Understanding the role of media and crimes in the formation of public opinion towards the police"
 
-There are two main directories and 4 notebooks:
+There are two main directories and 7 notebooks:
 
 1-Data
 
@@ -16,13 +16,18 @@ There are two main directories and 4 notebooks:
 
 7-Memory of target variables
 
+8-LPCMCI
+
+9-NYC_TE
+
  ---
 
 1- Data:
 - "Times_series_sa_det.csv" contains the daily raw time series and detrended and seasonally adjusted time series; and 
 - "Floyd_period_Minutes_PBandNeg.csv" contains time series of MPB and NT at a resolution of one minute; and
 - "Negative_tweets_Embedding_optimization.csv" contains the predictive power of the NT time series for different embedding dimensions; and
-- "Positive_tweets_Embedding_optimization.csv" contains the predictive power of the PT time series for different embedding dimensions.
+- "Positive_tweets_Embedding_optimization.csv" contains the predictive power of the PT time series for different embedding dimensions; and
+- "NYC_Data_time_series_sa_det.csv" ontains the daily raw time series and detrended and seasonally adjusted time series for New York City.
 
 2- modules
 - "EDM.py" is a module that includes the convergent cross mapping functions; and
@@ -43,3 +48,9 @@ is the script that computes the partial correlation in the supplement and displa
 
 7-Memory of target variables
 is the script that computes the entropy of the target variables conditioned on their history and displays them within the notebook.
+
+8-LPCMCI
+is the script that execute the Latent PCMCI algorithm, displays the causal graphs and the corresponding p-values
+
+9-NYC_TE
+is the script that computes the transfer entropy values and test statistics for New York City and displays them within the notebook.
