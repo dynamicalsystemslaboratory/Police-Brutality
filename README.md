@@ -32,6 +32,7 @@ There are two main directories and 7 notebooks:
 2- modules
 - "EDM.py" is a module that includes the convergent cross mapping functions; and
 - "transfer_entropy.py" is a module that includes several functions, such as the computation of conditional transfer entropy, the process of symbolization, and the estimation of the transition probabilities;
+- "parcorr.py" is taken from the package "Tigramite", and was slightly modified to print confidence intervals for the partial correlations used in LPCMCI
 
 
 3-Convergent cross mapping
